@@ -1,0 +1,45 @@
+
+Student 1: Ahmed Hosny Abdelrazik
+Student 2: Abdelaziz Salah
+
+Q1:
+
+The number of words in the dictionary ( vocabulary size )
+
+
+Q2:
+
+Write Your answer here
+The dimension of the word vector (each word embedding is a vector of 300 x 1 dimension)
+
+
+Predicted Country:
+Egypt
+
+Predicted Similarity:
+0.7626820802688599
+
+Q3:
+
+Yes 
+
+
+Q4:
+
+Yes, because the similarity between the word embedding of the country and the word embedding of the vector (country1_emb - city1_emb + city2_emb) 
+is the highest among all the other words in the dictionary close to 1
+
+
+Computed Accuracy:
+0.9192082407594425
+
+Q5:
+
+Yes
+
+
+Q6:
+
+the words in the plot are close to each other if they have similar context (clustered together)
+the model doesn't know take into account the meaning of the words (happy , sad) it only look at context
+
